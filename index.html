@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The emoji search engine. A fast emoji search experience with options to browse every emoji by name, category, or platform." />
+    <meta name="keywords" content="Copy and paste every emoji, Emoji" />
+    <meta name="author" content="OhEMOJI by L RMN." />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph Meta Tags (untuk berbagi di media sosial) -->
+    <meta property="og:title" content="Judul situs Anda" />
+    <meta property="og:description" content="The emoji search engine. A fast emoji search experience with options to browse every emoji by name, category, or platform." />
+    <meta property="og:image" content="./images/logo/ohemoji.png" />
+    <meta property="og:url" content="https://ohemoji.is-a.fun" />
+    <meta property="og:type" content="website" />
+  
+    <!-- Twitter Card Meta Tags (untuk berbagi di Twitter) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The emoji search engine. A fast emoji search experience with options to browse every emoji by name, category, or platform." />
+    <meta name="twitter:description" content="Copy and paste every emoji with 👍 no apps required." />
+    <meta name="twitter:image" content="./images/logo/ohemoji.png" />
+
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="xuodrELW57jEf1tifHPM0oGZCDlIPWTaid0IvKY0cCM" />
+  
+  <!-- Logo -->
+  <link rel="shortcut icon" href="./images/logo/logo.svg" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- Glidejs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+  <!-- Swiper Js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>OhEMOJI</title>
+</head>
+
+<body>
+
+  <!-- ================== Navigation ================== -->
+  <nav class="nav">
+    <div class="wrapper container">
+      <div class="nav-logo"><a href=""><img src="./images/logo/logo.svg" alt="" class="logo"></a>
+      </div>
+      <ul class="nav-list">
+        <div class="top">
+          <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+        </div>
+        <li><a href="#home">Home</a></li>
+
+        <!-- Mega Box Button -->
+        <li>
+          <a href="#home" class="desktop-item">Emoji Categories <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item">Emoji Categories <span><i
+                class="fas fa-chevron-down"></i></span></label>
+          <div class="mega-box">
+            <div class="content">
+
+              <div class="row2">
+                <ul class="mega-links">
+                  <li><a href="#people">💁 People</a></li>
+                  <li><a href="#animals">🐻 Animals</a></li>
+                  <li><a href="#food">🍔 Food</a></li>
+                  <li><a href="#sports">⚽️ Activities</a></li>
+                </ul>
+              </div>
+
+              <div class="row2">
+                <ul class="mega-links">
+                  <li><a href="#travel">🚘 Travel</a></li>
+                  <li><a href="#objects">💡 Objects</a></li>
+                  <li><a href="#symbols">💖 Symbols</a></li>
+                  <li><a href="#flags">🏳️ Flags</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+      <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+    </div>
+    <div class="" id="progress-container-id">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+  </nav>
+
+
+  <!-- ================== HOME ================== -->
+  <div class="home" id="home">
+    <div class="left">
+      <h1>Oh <span class="discount">EMOJI</span></h1>
+      <h1>
+        <span>Copy & Paste Emoji 🖱️</span>
+      </h1>
+      <strong>No Apps Required!</strong>
+      <small>Choose Your Favorite Emoji From Various Categories!</small>
+
+
+      <div class="emoji-categories-btn">
+        <div class="btn"><a href="#smileys">😉 Smileys</a></div>
+        <div class="btn"><a href="#people">👦 People</a></div>
+        <div class="btn"><a href="#animals">🐻 Animals</a></div>
+        <div class="btn"><a href="#food">🍔 Food</a></div>
+        <div class="btn"><a href="#sports">⚽️ Activities</a></div>
+      </div>
+
+      <div class="emoji-categories-btn">
+        <div class="btn"><a href="#travel">🚘 Travel</a></div>
+        <div class="btn"><a href="#objects">💡 Objects</a></div>
+        <div class="btn"><a href="#symbols">💖 Symbols</a></div>
+        <div class="btn"><a href="#flags">🏳️ Flags</a></div>
+      </div>
+
+      <div class="scroll-down">
+        <i class='bx bxs-chevrons-down'></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================== Smileys ================== -->
+
+  <section class="section smileys" id="smileys">
+    <div class="title">
+      <h2>Smileys</h2>
+    </div>
+
+    <div class="container">
+      <p>😀 😃 😄 😁 😆 😅 😂 🤣 😊 😇 🙂 🙃 😉 😌 😍 🥰 😘 😗 😙 😚 😋 😛 😝 😜 🤪 🤨 🧐 🤓 😎 🤩 🥳 😏 😒 😞 😔 😟
+        😕 🙁 ☹️ 😣 😖 😫 😩 🥺 😢 😭 😤 😠 😡 🤬 🤯 😳 🥵 🥶 😱 😨 😰 😥 😓 🤗 🤔 🤭 🤫 🤥 😶 😐 😑 😬 🙄 😯 😦 😧 😮
+        😲 🥱 😴 🤤 😪 😵 🤐 🥴
+        🤢 🤮 🤧 😷 🤒 🤕 🤑 🤠 😈 👿 👹 👺 🤡 💩 👻 💀 ☠️ 👽 👾 🤖 🎃 😺 😸 😹 😻 😼 😽 🙀 😿 😾</p>
+    </div>
+  </section>
+
+  <!-- ================== Gestures and Body Parts ================== -->
+
+  <section class="section gestures" id="gestures">
+    <div class="title">
+      <h2>Gestures and Body Parts</h2>
+    </div>
+    <div class="container">
+      <p>👋 🤚 🖐 ✋ 🖖 👌 🤌 🤏 ✌️ 🤞 🤟 🤘 🤙 👈 👉 👆 👇 ☝️ 👍 👎 ✊ 👊 🤛 🤜 👏 🙌 👐 🤲 🤝 🙏 ✍️ 💅 🤳 💪 🦾 🦵
+        🦿 🦶 👣 👂 🦻 👃 🫀 🫁 🧠 🦷 🦴 👀 👁 👅 👄 💋 🩸</p>
+    </div>
+  </section>
+
+  <!-- ================== People and Fantasy ================== -->
+
+  <section class="section people" id="people">
+    <div class="title">
+      <h2>People and Fantasy</h2>
+    </div>
+    <div class="container">
+      <p>👶 👧 🧒 👦 👩 🧑 👨 👩‍🦱 🧑‍🦱 👨‍🦱 👩‍🦰 🧑‍🦰 👨‍🦰 👱‍♀️ 👱 👱‍♂️ 👩‍🦳 🧑‍🦳 👨‍🦳 👩‍🦲 🧑‍🦲 👨‍🦲 🧔 👵 🧓 👴 👲 👳‍♀️ 👳 👳‍♂️ 🧕 👮‍♀️ 👮 👮‍♂️ 👷‍♀️ 👷 👷‍♂️ 💂‍♀️ 💂 💂‍♂️ 🕵️‍♀️ 🕵️ 🕵️‍♂️ 👩‍⚕️ 🧑‍⚕️ 👨‍⚕️ 👩‍🌾 🧑‍🌾 👨‍🌾 👩‍🍳 🧑‍🍳 👨‍🍳 👩‍🎓 🧑‍🎓 👨‍🎓 👩‍🎤 🧑‍🎤 👨‍🎤 👩‍🏫 🧑‍🏫 👨‍🏫 👩‍🏭 🧑‍🏭 👨‍🏭 👩‍💻 🧑‍💻 👨‍💻 👩‍💼 🧑‍💼 👨‍💼 👩‍🔧 🧑‍🔧 👨‍🔧 👩‍🔬 🧑‍🔬 👨‍🔬 👩‍🎨 🧑‍🎨 👨‍🎨 👩‍🚒 🧑‍🚒 👨‍🚒 👩‍✈️ 🧑‍✈️ 👨‍✈️ 👩‍🚀 🧑‍🚀 👨‍🚀 👩‍⚖️ 🧑‍⚖️ 👨‍⚖️ 👰‍♀️ 👰 👰‍♂️ 🤵‍♀️ 🤵 🤵‍♂️ 👸 🤴 🥷 🦸‍♀️ 🦸 🦸‍♂️ 🦹‍♀️ 🦹 🦹‍♂️ 🤶 🧑‍🎄 🎅 🧙‍♀️ 🧙 🧙‍♂️ 🧝‍♀️ 🧝 🧝‍♂️ 🧛‍♀️ 🧛 🧛‍♂️ 🧟‍♀️ 🧟 🧟‍♂️ 🧞‍♀️ 🧞 🧞‍♂️ 🧜‍♀️ 🧜 🧜‍♂️ 🧚‍♀️ 🧚 🧚‍♂️ 👼 🤰 🤱 👩‍🍼 🧑‍🍼 👨‍🍼 🙇‍♀️ 🙇 🙇‍♂️ 💁‍♀️ 💁 💁‍♂️ 🙅‍♀️ 🙅 🙅‍♂️ 🙆‍♀️ 🙆 🙆‍♂️ 🙋‍♀️ 🙋 🙋‍♂️ 🧏‍♀️ 🧏 🧏‍♂️ 🤦‍♀️ 🤦 🤦‍♂️ 🤷‍♀️ 🤷 🤷‍♂️ 🙎‍♀️ 🙎 🙎‍♂️ 🙍‍♀️ 🙍 🙍‍♂️ 💇‍♀️ 💇 💇‍♂️ 💆‍♀️ 💆 💆‍♂️ 🧖‍♀️ 🧖 🧖‍♂️ 💅 🤳 💃 🕺 👯‍♀️ 👯 👯‍♂️ 🕴 👩‍🦽 🧑‍🦽 👨‍🦽 👩‍🦼 🧑‍🦼 👨‍🦼 🚶‍♀️ 🚶 🚶‍♂️ 👩‍🦯 🧑‍🦯 👨‍🦯 🧎‍♀️ 🧎 🧎‍♂️ 🏃‍♀️ 🏃 🏃‍♂️ 🧍‍♀️ 🧍 🧍‍♂️ 👭 🧑‍🤝‍🧑 👬 👫 👩‍❤️‍👩 💑 👨‍❤️‍👨 👩‍❤️‍👨 👩‍❤️‍💋‍👩 💏 👨‍❤️‍💋‍👨 👩‍❤️‍💋‍👨 👪 👨‍👩‍👦 👨‍👩‍👧 👨‍👩‍👧‍👦 👨‍👩‍👦‍👦 👨‍👩‍👧‍👧 👨‍👨‍👦 👨‍👨‍👧 👨‍👨‍👧‍👦 👨‍👨‍👦‍👦 👨‍👨‍👧‍👧 👩‍👩‍👦 👩‍👩‍👧 👩‍👩‍👧‍👦 👩‍👩‍👦‍👦 👩‍👩‍👧‍👧 👨‍👦 👨‍👦‍👦 👨‍👧 👨‍👧‍👦 👨‍👧‍👧 👩‍👦 👩‍👦‍👦 👩‍👧 👩‍👧‍👦 👩‍👧‍👧 🗣 👤 👥</p>
+    </div>
+  </section>
+
+  <!-- ================== Clothing and Accessories ================== -->
+
+  <section class="section clothing" id="clothing">
+    <div class="title">
+      <h2>Clothing and Accessories</h2>
+    </div>
+    <div class="container">
+      <p>🧳 🌂 ☂️ 🧵 🪡 🪢 🧶 👓 🕶 🥽 🥼 🦺 👔 👕 👖 🧣 🧤 🧥 🧦 👗 👘 🥻 🩴 🩱 🩲 🩳 👙 👚 👛 👜 👝 🎒 👞 👟 🥾 🥿 👠 👡 🩰 👢 👑 👒 🎩 🎓 🧢 ⛑ 🪖 💄 💍 💼 </p>
+    </div>
+  </section>
+
+  <!-- ================== Pale Emojis ================== -->
+
+  <section class="section pale" id="pale">
+    <div class="title">
+      <h2>Pale Emojis</h2>
+    </div>
+    <div class="container">
+      <p>👋🏻 🤚🏻 🖐🏻 ✋🏻 🖖🏻 👌🏻 🤌🏻 🤏🏻 ✌🏻 🤞🏻 🤟🏻 🤘🏻 🤙🏻 👈🏻 👉🏻 👆🏻 🖕🏻 👇🏻 ☝🏻 👍🏻 👎🏻 ✊🏻 👊🏻 🤛🏻 🤜🏻 👏🏻 🙌🏻 👐🏻 🤲🏻 🙏🏻 ✍🏻 💅🏻 🤳🏻 💪🏻 🦵🏻 🦶🏻 👂🏻 🦻🏻 👃🏻 👶🏻 👧🏻 🧒🏻 👦🏻 👩🏻 🧑🏻 👨🏻 👩🏻‍🦱 🧑🏻‍🦱 👨🏻‍🦱 👩🏻‍🦰 🧑🏻‍🦰 👨🏻‍🦰 👱🏻‍♀️ 👱🏻 👱🏻‍♂️ 👩🏻‍🦳 🧑🏻‍🦳 👨🏻‍🦳 👩🏻‍🦲 🧑🏻‍🦲 👨🏻‍🦲 🧔🏻 👵🏻 🧓🏻 👴🏻 👲🏻 👳🏻‍♀️ 👳🏻 👳🏻‍♂️ 🧕🏻 👮🏻‍♀️ 👮🏻 👮🏻‍♂️ 👷🏻‍♀️ 👷🏻 👷🏻‍♂️ 💂🏻‍♀️ 💂🏻 💂🏻‍♂️ 🕵🏻‍♀️ 🕵🏻 🕵🏻‍♂️ 👩🏻‍⚕️ 🧑🏻‍⚕️ 👨🏻‍⚕️ 👩🏻‍🌾 🧑🏻‍🌾 👨🏻‍🌾 👩🏻‍🍳 🧑🏻‍🍳 👨🏻‍🍳 👩🏻‍🎓 🧑🏻‍🎓 👨🏻‍🎓 👩🏻‍🎤 🧑🏻‍🎤 👨🏻‍🎤 👩🏻‍🏫 🧑🏻‍🏫 👨🏻‍🏫 👩🏻‍🏭 🧑🏻‍🏭 👨🏻‍🏭 👩🏻‍💻 🧑🏻‍💻 👨🏻‍💻 👩🏻‍💼 🧑🏻‍💼 👨🏻‍💼 👩🏻‍🔧 🧑🏻‍🔧 👨🏻‍🔧 👩🏻‍🔬 🧑🏻‍🔬 👨🏻‍🔬 👩🏻‍🎨 🧑🏻‍🎨 👨🏻‍🎨 👩🏻‍🚒 🧑🏻‍🚒 👨🏻‍🚒 👩🏻‍✈️ 🧑🏻‍✈️ 👨🏻‍✈️ 👩🏻‍🚀 🧑🏻‍🚀 👨🏻‍🚀 👩🏻‍⚖️ 🧑🏻‍⚖️ 👨🏻‍⚖️ 👰🏻‍♀️ 👰🏻 👰🏻‍♂️ 🤵🏻‍♀️ 🤵🏻 🤵🏻‍♂️ 👸🏻 🤴🏻 🥷🏻 🦸🏻‍♀️ 🦸🏻 🦸🏻‍♂️ 🦹🏻‍♀️ 🦹🏻 🦹🏻‍♂️ 🤶🏻 🧑🏻‍🎄 🎅🏻 🧙🏻‍♀️ 🧙🏻 🧙🏻‍♂️ 🧝🏻‍♀️ 🧝🏻 🧝🏻‍♂️ 🧛🏻‍♀️ 🧛🏻 🧛🏻‍♂️ 🧜🏻‍♀️ 🧜🏻 🧜🏻‍♂️ 🧚🏻‍♀️ 🧚🏻 🧚🏻‍♂️ 👼🏻 🤰🏻 🤱🏻 👩🏻‍🍼 🧑🏻‍🍼 👨🏻‍🍼 🙇🏻‍♀️ 🙇🏻 🙇🏻‍♂️ 💁🏻‍♀️ 💁🏻 💁🏻‍♂️ 🙅🏻‍♀️ 🙅🏻 🙅🏻‍♂️ 🙆🏻‍♀️ 🙆🏻 🙆🏻‍♂️ 🙋🏻‍♀️ 🙋🏻 🙋🏻‍♂️ 🧏🏻‍♀️ 🧏🏻 🧏🏻‍♂️ 🤦🏻‍♀️ 🤦🏻 🤦🏻‍♂️ 🤷🏻‍♀️ 🤷🏻 🤷🏻‍♂️ 🙎🏻‍♀️ 🙎🏻 🙎🏻‍♂️ 🙍🏻‍♀️ 🙍🏻 🙍🏻‍♂️ 💇🏻‍♀️ 💇🏻 💇🏻‍♂️ 💆🏻‍♀️ 💆🏻 💆🏻‍♂️ 🧖🏻‍♀️ 🧖🏻 🧖🏻‍♂️ 💃🏻 🕺🏻 🕴🏻 👩🏻‍🦽 🧑🏻‍🦽 👨🏻‍🦽 👩🏻‍🦼 🧑🏻‍🦼 👨🏻‍🦼 🚶🏻‍♀️ 🚶🏻 🚶🏻‍♂️ 👩🏻‍🦯 🧑🏻‍🦯 👨🏻‍🦯 🧎🏻‍♀️ 🧎🏻 🧎🏻‍♂️ 🏃🏻‍♀️ 🏃🏻 🏃🏻‍♂️ 🧍🏻‍♀️ 🧍🏻 🧍🏻‍♂️ 👭🏻 🧑🏻‍🤝‍🧑🏻 👬🏻 👫🏻 🧗🏻‍♀️ 🧗🏻 🧗🏻‍♂️ 🏇🏻 🏂🏻 🏌🏻‍♀️ 🏌🏻 🏌🏻‍♂️ 🏄🏻‍♀️ 🏄🏻 🏄🏻‍♂️ 🚣🏻‍♀️ 🚣🏻 🚣🏻‍♂️ 🏊🏻‍♀️ 🏊🏻 🏊🏻‍♂️ ⛹🏻‍♀️ ⛹🏻 ⛹🏻‍♂️ 🏋🏻‍♀️ 🏋🏻 🏋🏻‍♂️ 🚴🏻‍♀️ 🚴🏻 🚴🏻‍♂️ 🚵🏻‍♀️ 🚵🏻 🚵🏻‍♂️ 🤸🏻‍♀️ 🤸🏻 🤸🏻‍♂️ 🤽🏻‍♀️ 🤽🏻 🤽🏻‍♂️ 🤾🏻‍♀️ 🤾🏻 🤾🏻‍♂️ 🤹🏻‍♀️ 🤹🏻 🤹🏻‍♂️ 🧘🏻‍♀️ 🧘🏻 🧘🏻‍♂️ 🛀🏻 🛌🏻</p>
+    </div>
+  </section>
+
+  <!-- ================== Cream White Emojis ================== -->
+
+  <section class="section cream-white" id="cream-white">
+    <div class="title">
+      <h2>Cream White Emojis</h2>
+    </div>
+    <div class="container">
+      <p>👋🏼 🤚🏼 🖐🏼 ✋🏼 🖖🏼 👌🏼 🤌🏼 🤏🏼 ✌🏼 🤞🏼 🤟🏼 🤘🏼 🤙🏼 👈🏼 👉🏼 👆🏼 🖕🏼 👇🏼 ☝🏼 👍🏼 👎🏼 ✊🏼 👊🏼 🤛🏼 🤜🏼 👏🏼 🙌🏼 👐🏼 🤲🏼 🙏🏼 ✍🏼 💅🏼 🤳🏼 💪🏼 🦵🏼 🦶🏼 👂🏼 🦻🏼 👃🏼 👶🏼 👧🏼 🧒🏼 👦🏼 👩🏼 🧑🏼 👨🏼 👩🏼‍🦱 🧑🏼‍🦱 👨🏼‍🦱 👩🏼‍🦰 🧑🏼‍🦰 👨🏼‍🦰 👱🏼‍♀️ 👱🏼 👱🏼‍♂️ 👩🏼‍🦳 🧑🏼‍🦳 👨🏼‍🦳 👩🏼‍🦲 🧑🏼‍🦲 👨🏼‍🦲 🧔🏼 👵🏼 🧓🏼 👴🏼 👲🏼 👳🏼‍♀️ 👳🏼 👳🏼‍♂️ 🧕🏼 👮🏼‍♀️ 👮🏼 👮🏼‍♂️ 👷🏼‍♀️ 👷🏼 👷🏼‍♂️ 💂🏼‍♀️ 💂🏼 💂🏼‍♂️ 🕵🏼‍♀️ 🕵🏼 🕵🏼‍♂️ 👩🏼‍⚕️ 🧑🏼‍⚕️ 👨🏼‍⚕️ 👩🏼‍🌾 🧑🏼‍🌾 👨🏼‍🌾 👩🏼‍🍳 🧑🏼‍🍳 👨🏼‍🍳 👩🏼‍🎓 🧑🏼‍🎓 👨🏼‍🎓 👩🏼‍🎤 🧑🏼‍🎤 👨🏼‍🎤 👩🏼‍🏫 🧑🏼‍🏫 👨🏼‍🏫 👩🏼‍🏭 🧑🏼‍🏭 👨🏼‍🏭 👩🏼‍💻 🧑🏼‍💻 👨🏼‍💻 👩🏼‍💼 🧑🏼‍💼 👨🏼‍💼 👩🏼‍🔧 🧑🏼‍🔧 👨🏼‍🔧 👩🏼‍🔬 🧑🏼‍🔬 👨🏼‍🔬 👩🏼‍🎨 🧑🏼‍🎨 👨🏼‍🎨 👩🏼‍🚒 🧑🏼‍🚒 👨🏼‍🚒 👩🏼‍✈️ 🧑🏼‍✈️ 👨🏼‍✈️ 👩🏼‍🚀 🧑🏼‍🚀 👨🏼‍🚀 👩🏼‍⚖️ 🧑🏼‍⚖️ 👨🏼‍⚖️ 👰🏼‍♀️ 👰🏼 👰🏼‍♂️ 🤵🏼‍♀️ 🤵🏼 🤵🏼‍♂️ 👸🏼 🤴🏼 🥷🏼 🦸🏼‍♀️ 🦸🏼 🦸🏼‍♂️ 🦹🏼‍♀️ 🦹🏼 🦹🏼‍♂️ 🤶🏼 🧑🏼‍🎄 🎅🏼 🧙🏼‍♀️ 🧙🏼 🧙🏼‍♂️ 🧝🏼‍♀️ 🧝🏼 🧝🏼‍♂️ 🧛🏼‍♀️ 🧛🏼 🧛🏼‍♂️ 🧜🏼‍♀️ 🧜🏼 🧜🏼‍♂️ 🧚🏼‍♀️ 🧚🏼 🧚🏼‍♂️ 👼🏼 🤰🏼 🤱🏼 👩🏼‍🍼 🧑🏼‍🍼 👨🏼‍🍼 🙇🏼‍♀️ 🙇🏼 🙇🏼‍♂️ 💁🏼‍♀️ 💁🏼 💁🏼‍♂️ 🙅🏼‍♀️ 🙅🏼 🙅🏼‍♂️ 🙆🏼‍♀️ 🙆🏼 🙆🏼‍♂️ 🙋🏼‍♀️ 🙋🏼 🙋🏼‍♂️ 🧏🏼‍♀️ 🧏🏼 🧏🏼‍♂️ 🤦🏼‍♀️ 🤦🏼 🤦🏼‍♂️ 🤷🏼‍♀️ 🤷🏼 🤷🏼‍♂️ 🙎🏼‍♀️ 🙎🏼 🙎🏼‍♂️ 🙍🏼‍♀️ 🙍🏼 🙍🏼‍♂️ 💇🏼‍♀️ 💇🏼 💇🏼‍♂️ 💆🏼‍♀️ 💆🏼 💆🏼‍♂️ 🧖🏼‍♀️ 🧖🏼 🧖🏼‍♂️ 💃🏼 🕺🏼 🕴🏼 👩🏼‍🦽 🧑🏼‍🦽 👨🏼‍🦽 👩🏼‍🦼 🧑🏼‍🦼 👨🏼‍🦼 🚶🏼‍♀️ 🚶🏼 🚶🏼‍♂️ 👩🏼‍🦯 🧑🏼‍🦯 👨🏼‍🦯 🧎🏼‍♀️ 🧎🏼 🧎🏼‍♂️ 🏃🏼‍♀️ 🏃🏼 🏃🏼‍♂️ 🧍🏼‍♀️ 🧍🏼 🧍🏼‍♂️ 👭🏼 🧑🏼‍🤝‍🧑🏼 👬🏼 👫🏼 🧗🏼‍♀️ 🧗🏼 🧗🏼‍♂️ 🏇🏼 🏂🏼 🏌🏼‍♀️ 🏌🏼 🏌🏼‍♂️ 🏄🏼‍♀️ 🏄🏼 🏄🏼‍♂️ 🚣🏼‍♀️ 🚣🏼 🚣🏼‍♂️ 🏊🏼‍♀️ 🏊🏼 🏊🏼‍♂️ ⛹🏼‍♀️ ⛹🏼 ⛹🏼‍♂️ 🏋🏼‍♀️ 🏋🏼 🏋🏼‍♂️ 🚴🏼‍♀️ 🚴🏼 🚴🏼‍♂️ 🚵🏼‍♀️ 🚵🏼 🚵🏼‍♂️ 🤸🏼‍♀️ 🤸🏼 🤸🏼‍♂️ 🤽🏼‍♀️ 🤽🏼 🤽🏼‍♂️ 🤾🏼‍♀️ 🤾🏼 🤾🏼‍♂️ 🤹🏼‍♀️ 🤹🏼 🤹🏼‍♂️ 🧘🏼‍♀️ 🧘🏼 🧘🏼‍♂️ 🛀🏼 🛌🏼</p>
+    </div>
+  </section>
+
+  <!-- ================== Brown Emojis ================== -->
+
+  <section class="section brown" id="brown">
+    <div class="title">
+      <h2>Brown Emojis</h2>
+    </div>
+    <div class="container">
+      <p>👋🏽 🤚🏽 🖐🏽 ✋🏽 🖖🏽 👌🏽 🤌🏽 🤏🏽 ✌🏽 🤞🏽 🤟🏽 🤘🏽 🤙🏽 👈🏽 👉🏽 👆🏽 🖕🏽 👇🏽 ☝🏽 👍🏽 👎🏽 ✊🏽 👊🏽 🤛🏽 🤜🏽 👏🏽 🙌🏽 👐🏽 🤲🏽 🙏🏽 ✍🏽 💅🏽 🤳🏽 💪🏽 🦵🏽 🦶🏽 👂🏽 🦻🏽 👃🏽 👶🏽 👧🏽 🧒🏽 👦🏽 👩🏽 🧑🏽 👨🏽 👩🏽‍🦱 🧑🏽‍🦱 👨🏽‍🦱 👩🏽‍🦰 🧑🏽‍🦰 👨🏽‍🦰 👱🏽‍♀️ 👱🏽 👱🏽‍♂️ 👩🏽‍🦳 🧑🏽‍🦳 👨🏽‍🦳 👩🏽‍🦲 🧑🏽‍🦲 👨🏽‍🦲 🧔🏽 👵🏽 🧓🏽 👴🏽 👲🏽 👳🏽‍♀️ 👳🏽 👳🏽‍♂️ 🧕🏽 👮🏽‍♀️ 👮🏽 👮🏽‍♂️ 👷🏽‍♀️ 👷🏽 👷🏽‍♂️ 💂🏽‍♀️ 💂🏽 💂🏽‍♂️ 🕵🏽‍♀️ 🕵🏽 🕵🏽‍♂️ 👩🏽‍⚕️ 🧑🏽‍⚕️ 👨🏽‍⚕️ 👩🏽‍🌾 🧑🏽‍🌾 👨🏽‍🌾 👩🏽‍🍳 🧑🏽‍🍳 👨🏽‍🍳 👩🏽‍🎓 🧑🏽‍🎓 👨🏽‍🎓 👩🏽‍🎤 🧑🏽‍🎤 👨🏽‍🎤 👩🏽‍🏫 🧑🏽‍🏫 👨🏽‍🏫 👩🏽‍🏭 🧑🏽‍🏭 👨🏽‍🏭 👩🏽‍💻 🧑🏽‍💻 👨🏽‍💻 👩🏽‍💼 🧑🏽‍💼 👨🏽‍💼 👩🏽‍🔧 🧑🏽‍🔧 👨🏽‍🔧 👩🏽‍🔬 🧑🏽‍🔬 👨🏽‍🔬 👩🏽‍🎨 🧑🏽‍🎨 👨🏽‍🎨 👩🏽‍🚒 🧑🏽‍🚒 👨🏽‍🚒 👩🏽‍✈️ 🧑🏽‍✈️ 👨🏽‍✈️ 👩🏽‍🚀 🧑🏽‍🚀 👨🏽‍🚀 👩🏽‍⚖️ 🧑🏽‍⚖️ 👨🏽‍⚖️ 👰🏽‍♀️ 👰🏽 👰🏽‍♂️ 🤵🏽‍♀️ 🤵🏽 🤵🏽‍♂️ 👸🏽 🤴🏽 🥷🏽 🦸🏽‍♀️ 🦸🏽 🦸🏽‍♂️ 🦹🏽‍♀️ 🦹🏽 🦹🏽‍♂️ 🤶🏽 🧑🏽‍🎄 🎅🏽 🧙🏽‍♀️ 🧙🏽 🧙🏽‍♂️ 🧝🏽‍♀️ 🧝🏽 🧝🏽‍♂️ 🧛🏽‍♀️ 🧛🏽 🧛🏽‍♂️ 🧜🏽‍♀️ 🧜🏽 🧜🏽‍♂️ 🧚🏽‍♀️ 🧚🏽 🧚🏽‍♂️ 👼🏽 🤰🏽 🤱🏽 👩🏽‍🍼 🧑🏽‍🍼 👨🏽‍🍼 🙇🏽‍♀️ 🙇🏽 🙇🏽‍♂️ 💁🏽‍♀️ 💁🏽 💁🏽‍♂️ 🙅🏽‍♀️ 🙅🏽 🙅🏽‍♂️ 🙆🏽‍♀️ 🙆🏽 🙆🏽‍♂️ 🙋🏽‍♀️ 🙋🏽 🙋🏽‍♂️ 🧏🏽‍♀️ 🧏🏽 🧏🏽‍♂️ 🤦🏽‍♀️ 🤦🏽 🤦🏽‍♂️ 🤷🏽‍♀️ 🤷🏽 🤷🏽‍♂️ 🙎🏽‍♀️ 🙎🏽 🙎🏽‍♂️ 🙍🏽‍♀️ 🙍🏽 🙍🏽‍♂️ 💇🏽‍♀️ 💇🏽 💇🏽‍♂️ 💆🏽‍♀️ 💆🏽 💆🏽‍♂️ 🧖🏽‍♀️ 🧖🏽 🧖🏽‍♂️ 💃🏽 🕺🏽 🕴🏽 👩🏽‍🦽 🧑🏽‍🦽 👨🏽‍🦽 👩🏽‍🦼 🧑🏽‍🦼 👨🏽‍🦼 🚶🏽‍♀️ 🚶🏽 🚶🏽‍♂️ 👩🏽‍🦯 🧑🏽‍🦯 👨🏽‍🦯 🧎🏽‍♀️ 🧎🏽 🧎🏽‍♂️ 🏃🏽‍♀️ 🏃🏽 🏃🏽‍♂️ 🧍🏽‍♀️ 🧍🏽 🧍🏽‍♂️ 👭🏽 🧑🏽‍🤝‍🧑🏽 👬🏽 👫🏽 🧗🏽‍♀️ 🧗🏽 🧗🏽‍♂️ 🏇🏽 🏂🏽 🏌🏽‍♀️ 🏌🏽 🏌🏽‍♂️ 🏄🏽‍♀️ 🏄🏽 🏄🏽‍♂️ 🚣🏽‍♀️ 🚣🏽 🚣🏽‍♂️ 🏊🏽‍♀️ 🏊🏽 🏊🏽‍♂️ ⛹🏽‍♀️ ⛹🏽 ⛹🏽‍♂️ 🏋🏽‍♀️ 🏋🏽 🏋🏽‍♂️ 🚴🏽‍♀️ 🚴🏽 🚴🏽‍♂️ 🚵🏽‍♀️ 🚵🏽 🚵🏽‍♂️ 🤸🏽‍♀️ 🤸🏽 🤸🏽‍♂️ 🤽🏽‍♀️ 🤽🏽 🤽🏽‍♂️ 🤾🏽‍♀️ 🤾🏽 🤾🏽‍♂️ 🤹🏽‍♀️ 🤹🏽 🤹🏽‍♂️ 🧘🏽‍♀️ 🧘🏽 🧘🏽‍♂️ 🛀🏽 🛌🏽</p>
+    </div>
+  </section>
+
+  <!-- ================== Dark Brown Emojis ================== -->
+
+  <section class="section dark-brown" id="dark-brown">
+    <div class="title">
+      <h2>Dark Brown Emojis</h2>
+    </div>
+    <div class="container">
+      <p>👋🏾 🤚🏾 🖐🏾 ✋🏾 🖖🏾 👌🏾 🤌🏾 🤏🏾 ✌🏾 🤞🏾 🤟🏾 🤘🏾 🤙🏾 👈🏾 👉🏾 👆🏾 🖕🏾 👇🏾 ☝🏾 👍🏾 👎🏾 ✊🏾 👊🏾 🤛🏾 🤜🏾 👏🏾 🙌🏾 👐🏾 🤲🏾 🙏🏾 ✍🏾 💅🏾 🤳🏾 💪🏾 🦵🏾 🦶🏾 👂🏾 🦻🏾 👃🏾 👶🏾 👧🏾 🧒🏾 👦🏾 👩🏾 🧑🏾 👨🏾 👩🏾‍🦱 🧑🏾‍🦱 👨🏾‍🦱 👩🏾‍🦰 🧑🏾‍🦰 👨🏾‍🦰 👱🏾‍♀️ 👱🏾 👱🏾‍♂️ 👩🏾‍🦳 🧑🏾‍🦳 👨🏾‍🦳 👩🏾‍🦲 🧑🏾‍🦲 👨🏾‍🦲 🧔🏾 👵🏾 🧓🏾 👴🏾 👲🏾 👳🏾‍♀️ 👳🏾 👳🏾‍♂️ 🧕🏾 👮🏾‍♀️ 👮🏾 👮🏾‍♂️ 👷🏾‍♀️ 👷🏾 👷🏾‍♂️ 💂🏾‍♀️ 💂🏾 💂🏾‍♂️ 🕵🏾‍♀️ 🕵🏾 🕵🏾‍♂️ 👩🏾‍⚕️ 🧑🏾‍⚕️ 👨🏾‍⚕️ 👩🏾‍🌾 🧑🏾‍🌾 👨🏾‍🌾 👩🏾‍🍳 🧑🏾‍🍳 👨🏾‍🍳 👩🏾‍🎓 🧑🏾‍🎓 👨🏾‍🎓 👩🏾‍🎤 🧑🏾‍🎤 👨🏾‍🎤 👩🏾‍🏫 🧑🏾‍🏫 👨🏾‍🏫 👩🏾‍🏭 🧑🏾‍🏭 👨🏾‍🏭 👩🏾‍💻 🧑🏾‍💻 👨🏾‍💻 👩🏾‍💼 🧑🏾‍💼 👨🏾‍💼 👩🏾‍🔧 🧑🏾‍🔧 👨🏾‍🔧 👩🏾‍🔬 🧑🏾‍🔬 👨🏾‍🔬 👩🏾‍🎨 🧑🏾‍🎨 👨🏾‍🎨 👩🏾‍🚒 🧑🏾‍🚒 👨🏾‍🚒 👩🏾‍✈️ 🧑🏾‍✈️ 👨🏾‍✈️ 👩🏾‍🚀 🧑🏾‍🚀 👨🏾‍🚀 👩🏾‍⚖️ 🧑🏾‍⚖️ 👨🏾‍⚖️ 👰🏾‍♀️ 👰🏾 👰🏾‍♂️ 🤵🏾‍♀️ 🤵🏾 🤵🏾‍♂️ 👸🏾 🤴🏾 🥷🏾 🦸🏾‍♀️ 🦸🏾 🦸🏾‍♂️ 🦹🏾‍♀️ 🦹🏾 🦹🏾‍♂️ 🤶🏾 🧑🏾‍🎄 🎅🏾 🧙🏾‍♀️ 🧙🏾 🧙🏾‍♂️ 🧝🏾‍♀️ 🧝🏾 🧝🏾‍♂️ 🧛🏾‍♀️ 🧛🏾 🧛🏾‍♂️ 🧜🏾‍♀️ 🧜🏾 🧜🏾‍♂️ 🧚🏾‍♀️ 🧚🏾 🧚🏾‍♂️ 👼🏾 🤰🏾 🤱🏾 👩🏾‍🍼 🧑🏾‍🍼 👨🏾‍🍼 🙇🏾‍♀️ 🙇🏾 🙇🏾‍♂️ 💁🏾‍♀️ 💁🏾 💁🏾‍♂️ 🙅🏾‍♀️ 🙅🏾 🙅🏾‍♂️ 🙆🏾‍♀️ 🙆🏾 🙆🏾‍♂️ 🙋🏾‍♀️ 🙋🏾 🙋🏾‍♂️ 🧏🏾‍♀️ 🧏🏾 🧏🏾‍♂️ 🤦🏾‍♀️ 🤦🏾 🤦🏾‍♂️ 🤷🏾‍♀️ 🤷🏾 🤷🏾‍♂️ 🙎🏾‍♀️ 🙎🏾 🙎🏾‍♂️ 🙍🏾‍♀️ 🙍🏾 🙍🏾‍♂️ 💇🏾‍♀️ 💇🏾 💇🏾‍♂️ 💆🏾‍♀️ 💆🏾 💆🏾‍♂️ 🧖🏾‍♀️ 🧖🏾 🧖🏾‍♂️ 💃🏾 🕺🏾 🕴🏿 👩🏾‍🦽 🧑🏾‍🦽 👨🏾‍🦽 👩🏾‍🦼 🧑🏾‍🦼 👨🏾‍🦼 🚶🏾‍♀️ 🚶🏾 🚶🏾‍♂️ 👩🏾‍🦯 🧑🏾‍🦯 👨🏾‍🦯 🧎🏾‍♀️ 🧎🏾 🧎🏾‍♂️ 🏃🏾‍♀️ 🏃🏾 🏃🏾‍♂️ 🧍🏾‍♀️ 🧍🏾 🧍🏾‍♂️ 👭🏾 🧑🏾‍🤝‍🧑🏾 👬🏾 👫🏾 🧗🏾‍♀️ 🧗🏾 🧗🏾‍♂️ 🏇🏾 🏂🏾 🏌🏾‍♀️ 🏌🏾 🏌🏾‍♂️ 🏄🏾‍♀️ 🏄🏾 🏄🏾‍♂️ 🚣🏾‍♀️ 🚣🏾 🚣🏾‍♂️ 🏊🏾‍♀️ 🏊🏾 🏊🏾‍♂️ ⛹🏾‍♀️ ⛹🏾 ⛹🏾‍♂️ 🏋🏾‍♀️ 🏋🏾 🏋🏾‍♂️ 🚴🏾‍♀️ 🚴🏾 🚴🏾‍♂️ 🚵🏾‍♀️ 🚵🏾 🚵🏾‍♂️ 🤸🏾‍♀️ 🤸🏾 🤸🏾‍♂️ 🤽🏾‍♀️ 🤽🏾 🤽🏾‍♂️ 🤾🏾‍♀️ 🤾🏾 🤾🏾‍♂️ 🤹🏾‍♀️ 🤹🏾 🤹🏾‍♂️ 🧘🏾‍♀️ 🧘🏾 🧘🏾‍♂️ 🛀🏾 🛌🏾</p>
+    </div>
+  </section>
+
+  <!-- ================== Animals & Nature ================== -->
+
+  <section class="section animals" id="animals">
+    <div class="title">
+      <h2>Animals & Nature</h2>
+    </div>
+    <div class="container">
+      <p>🐶 🐱 🐭 🐹 🐰 🦊 🐻 🐼 🐻‍❄️ 🐨 🐯 🦁 🐮 🐷 🐽 🐸 🐵 🙈 🙉 🙊 🐒 🐔 🐧 🐦 🐤 🐣 🐥 🦆 🦅 🦉 🦇 🐺 🐗 🐴 🦄 🐝 🪱 🐛 🦋 🐌 🐞 🐜 🪰 🪲 🪳 🦟 🦗 🕷 🕸 🦂 🐢 🐍 🦎 🦖 🦕 🐙 🦑 🦐 🦞 🦀 🐡 🐠 🐟 🐬 🐳 🐋 🦈 🐊 🐅 🐆 🦓 🦍 🦧 🦣 🐘 🦛 🦏 🐪 🐫 🦒 🦘 🦬 🐃 🐂 🐄 🐎 🐖 🐏 🐑 🦙 🐐 🦌 🐕 🐩 🦮 🐕‍🦺 🐈 🐈‍⬛ 🪶 🐓 🦃 🦤 🦚 🦜 🦢 🦩 🕊 🐇 🦝 🦨 🦡 🦫 🦦 🦥 🐁 🐀 🐿 🦔 🐾 🐉 🐲 🌵 🎄 🌲 🌳 🌴 🪵 🌱 🌿 ☘️ 🍀 🎍 🪴 🎋 🍃 🍂 🍁 🍄 🐚 🪨 🌾 💐 🌷 🌹 🥀 🌺 🌸 🌼 🌻 🌞 🌝 🌛 🌜 🌚 🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌙 🌎 🌍 🌏 🪐 💫 ⭐️ 🌟 ✨ ⚡️ ☄️ 💥 🔥 🌪 🌈 ☀️ 🌤 ⛅️ 🌥 ☁️ 🌦 🌧 ⛈ 🌩 🌨 ❄️ ☃️ ⛄️ 🌬 💨 💧 💦 ☔️ ☂️ 🌊 🌫</p>
+    </div>
+  </section>
+
+  <!-- ================== Food & Drink ================== -->
+
+  <section class="section food" id="food">
+    <div class="title">
+      <h2>Food & Drink</h2>
+    </div>
+    <div class="container">
+      <p>🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🫐 🍈 🍒 🍑 🥭 🍍 🥥 🥝 🍅 🍆 🥑 🥦 🥬 🥒 🌶 🫑 🌽 🥕 🫒 🧄 🧅 🥔 🍠 🥐 🥯 🍞 🥖 🥨 🧀 🥚 🍳 🧈 🥞 🧇 🥓 🥩 🍗 🍖 🦴 🌭 🍔 🍟 🍕 🫓 🥪 🥙 🧆 🌮 🌯 🫔 🥗 🥘 🫕 🥫 🍝 🍜 🍲 🍛 🍣 🍱 🥟 🦪 🍤 🍙 🍚 🍘 🍥 🥠 🥮 🍢 🍡 🍧 🍨 🍦 🥧 🧁 🍰 🎂 🍮 🍭 🍬 🍫 🍿 🍩 🍪 🌰 🥜 🍯 🥛 🍼 🫖 ☕️ 🍵 🧃 🥤 🧋 🍶 🍺 🍻 🥂 🍷 🥃 🍸 🍹 🧉 🍾 🧊 🥄 🍴 🍽 🥣 🥡 🥢 🧂</p>
+    </div>
+  </section>
+
+  <!-- ================== Activity and Sports ================== -->
+
+  <section class="section sports" id="sports">
+    <div class="title">
+      <h2>Activity & Sports</h2>
+    </div>
+    <div class="container">
+      <p>⚽️ 🏀 🏈 ⚾️ 🥎 🎾 🏐 🏉 🥏 🎱 🪀 🏓 🏸 🏒 🏑 🥍 🏏 🪃 🥅 ⛳️ 🪁 🏹 🎣 🤿 🥊 🥋 🎽 🛹 🛼 🛷 ⛸ 🥌 🎿 ⛷ 🏂 🪂 🏋️‍♀️ 🏋️ 🏋️‍♂️ 🤼‍♀️ 🤼 🤼‍♂️ 🤸‍♀️ 🤸 🤸‍♂️ ⛹️‍♀️ ⛹️ ⛹️‍♂️ 🤺 🤾‍♀️ 🤾 🤾‍♂️ 🏌️‍♀️ 🏌️ 🏌️‍♂️ 🏇 🧘‍♀️ 🧘 🧘‍♂️ 🏄‍♀️ 🏄 🏄‍♂️ 🏊‍♀️ 🏊 🏊‍♂️ 🤽‍♀️ 🤽 🤽‍♂️ 🚣‍♀️ 🚣 🚣‍♂️ 🧗‍♀️ 🧗 🧗‍♂️ 🚵‍♀️ 🚵 🚵‍♂️ 🚴‍♀️ 🚴 🚴‍♂️ 🏆 🥇 🥈 🥉 🏅 🎖 🏵 🎗 🎫 🎟 🎪 🤹 🤹‍♂️ 🤹‍♀️ 🎭 🩰 🎨 🎬 🎤 🎧 🎼 🎹 🥁 🪘 🎷 🎺 🪗 🎸 🪕 🎻 🎲 ♟ 🎯 🎳 🎮 🎰 🧩</p>
+    </div>
+  </section>
+
+  <!-- ================== Travel & Places ================== -->
+
+  <section class="section travel" id="travel">
+    <div class="title">
+      <h2>Travel & Places</h2>
+    </div>
+    <div class="container">
+      <p>🚗 🚕 🚙 🚌 🚎 🏎 🚓 🚑 🚒 🚐 🛻 🚚 🚛 🚜 🦯 🦽 🦼 🛴 🚲 🛵 🏍 🛺 🚨 🚔 🚍 🚘 🚖 🚡 🚠 🚟 🚃 🚋 🚞 🚝 🚄 🚅 🚈 🚂 🚆 🚇 🚊 🚉 ✈️ 🛫 🛬 🛩 💺 🛰 🚀 🛸 🚁 🛶 ⛵️ 🚤 🛥 🛳 ⛴ 🚢 ⚓️ 🪝 ⛽️ 🚧 🚦 🚥 🚏 🗺 🗿 🗽 🗼 🏰 🏯 🏟 🎡 🎢 🎠 ⛲️ ⛱ 🏖 🏝 🏜 🌋 ⛰ 🏔 🗻 🏕 ⛺️ 🛖 🏠 🏡 🏘 🏚 🏗 🏭 🏢 🏬 🏣 🏤 🏥 🏦 🏨 🏪 🏫 🏩 💒 🏛 ⛪️ 🕌 🕍 🛕 🕋 ⛩ 🛤 🛣 🗾 🎑 🏞 🌅 🌄 🌠 🎇 🎆 🌇 🌆 🏙 🌃 🌌 🌉 🌁</p>
+    </div>
+  </section>
+
+  <!-- ================== Objects ================== -->
+
+  <section class="section objects" id="objects">
+    <div class="title">
+      <h2>Objects</h2>
+    </div>
+    <div class="container">
+      <p>⌚️ 📱 📲 💻 ⌨️ 🖥 🖨 🖱 🖲 🕹 🗜 💽 💾 💿 📀 📼 📷 📸 📹 🎥 📽 🎞 📞 ☎️ 📟 📠 📺 📻 🎙 🎚 🎛 🧭 ⏱ ⏲ ⏰ 🕰 ⌛️ ⏳ 📡 🔋 🔌 💡 🔦 🕯 🪔 🧯 🛢 💸 💵 💴 💶 💷 🪙 💰 💳 💎 ⚖️ 🪜 🧰 🪛 🔧 🔨 ⚒ 🛠 ⛏ 🪚 🔩 ⚙️ 🪤 🧱 ⛓ 🧲 🔫 💣 🧨 🪓 🔪 🗡 ⚔️ 🛡 🚬 ⚰️ 🪦 ⚱️ 🏺 🔮 📿 🧿 💈 ⚗️ 🔭 🔬 🕳 🩹 🩺 💊 💉 🩸 🧬 🦠 🧫 🧪 🌡 🧹 🪠 🧺 🧻 🚽 🚰 🚿 🛁 🛀 🧼 🪥 🪒 🧽 🪣 🧴 🛎 🔑 🗝 🚪 🪑 🛋 🛏 🛌 🧸 🪆 🖼 🪞 🪟 🛍 🛒 🎁 🎈 🎏 🎀 🪄 🪅 🎊 🎉 🎎 🏮 🎐 🧧 ✉️ 📩 📨 📧 💌 📥 📤 📦 🏷 🪧 📪 📫 📬 📭 📮 📯 📜 📃 📄 📑 🧾 📊 📈 📉 🗒 🗓 📆 📅 🗑 📇 🗃 🗳 🗄 📋 📁 📂 🗂 🗞 📰 📓 📔 📒 📕 📗 📘 📙 📚 📖 🔖 🧷 🔗 📎 🖇 📐 📏 🧮 📌 📍 ✂️ 🖊 🖋 ✒️ 🖌 🖍 📝 ✏️ 🔍 🔎 🔏 🔐 🔒 🔓</p>
+    </div>
+  </section>
+
+  <!-- ================== Symbols ================== -->
+
+  <section class="section symbols" id="symbols">
+    <div class="title">
+      <h2>Symbols</h2>
+    </div>
+    <div class="container">
+      <p>❤️ 🧡 💛 💚 💙 💜 🖤 🤍 🤎 💔 ❣️ 💕 💞 💓 💗 💖 💘 💝 💟 ☮️ ✝️ ☪️ 🕉 ☸️ ✡️ 🔯 🕎 ☯️ ☦️ 🛐 ⛎ ♈️ ♉️ ♊️ ♋️ ♌️ ♍️ ♎️ ♏️ ♐️ ♑️ ♒️ ♓️ 🆔 ⚛️ 🉑 ☢️ ☣️ 📴 📳 🈶 🈚️ 🈸 🈺 🈷️ ✴️ 🆚 💮 🉐 ㊙️ ㊗️ 🈴 🈵 🈹 🈲 🅰️ 🅱️ 🆎 🆑 🅾️ 🆘 ❌ ⭕️ 🛑 ⛔️ 📛 🚫 💯 💢 ♨️ 🚷 🚯 🚳 🚱 🔞 📵 🚭 ❗️ ❕ ❓ ❔ ‼️ ⁉️ 🔅 🔆 〽️ ⚠️ 🚸 🔱 ⚜️ 🔰 ♻️ ✅ 🈯️ 💹 ❇️ ✳️ ❎ 🌐 💠 Ⓜ️ 🌀 💤 🏧 🚾 ♿️ 🅿️ 🛗 🈳 🈂️ 🛂 🛃 🛄 🛅 🚹 🚺 🚼 ⚧ 🚻 🚮 🎦 📶 🈁 🔣 ℹ️ 🔤 🔡 🔠 🆖 🆗 🆙 🆒 🆕 🆓 0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟 🔢 #️⃣ *️⃣ ⏏️ ▶️ ⏸ ⏯ ⏹ ⏺ ⏭ ⏮ ⏩ ⏪ ⏫ ⏬ ◀️ 🔼 🔽 ➡️ ⬅️ ⬆️ ⬇️ ↗️ ↘️ ↙️ ↖️ ↕️ ↔️ ↪️ ↩️ ⤴️ ⤵️ 🔀 🔁 🔂 🔄 🔃 🎵 🎶 ➕ ➖ ➗ ✖️ ♾ 💲 💱 ™️ ©️ ®️ 〰️ ➰ ➿ 🔚 🔙 🔛 🔝 🔜 ✔️ ☑️ 🔘 🔴 🟠 🟡 🟢 🔵 🟣 ⚫️ ⚪️ 🟤 🔺 🔻 🔸 🔹 🔶 🔷 🔳 🔲 ▪️ ▫️ ◾️ ◽️ ◼️ ◻️ 🟥 🟧 🟨 🟩 🟦 🟪 ⬛️ ⬜️ 🟫 🔈 🔇 🔉 🔊 🔔 🔕 📣 📢 👁‍🗨 💬 💭 🗯 ♠️ ♣️ ♥️ ♦️ 🃏 🎴 🀄️ 🕐 🕑 🕒 🕓 🕔 🕕 🕖 🕗 🕘 🕙 🕚 🕛 🕜 🕝 🕞 🕟 🕠 🕡 🕢 🕣 🕤 🕥 🕦 🕧</p>
+    </div>
+  </section>
+
+  <!-- ================== Flags ================== -->
+
+  <section class="section flags" id="flags">
+    <div class="title">
+      <h2>Flags</h2>
+    </div>
+    <div class="container">
+      <p>🏳️ 🏴 🏁 🚩 🏳️‍🌈 🏳️‍⚧️ 🏴‍☠️ 🇦🇫 🇦🇽 🇦🇱 🇩🇿 🇦🇸 🇦🇩 🇦🇴 🇦🇮 🇦🇶 🇦🇬 🇦🇷 🇦🇲 🇦🇼 🇦🇺 🇦🇹 🇦🇿 🇧🇸 🇧🇭 🇧🇩 🇧🇧 🇧🇾 🇧🇪 🇧🇿 🇧🇯 🇧🇲 🇧🇹 🇧🇴 🇧🇦 🇧🇼 🇧🇷 🇮🇴 🇻🇬 🇧🇳 🇧🇬 🇧🇫 🇧🇮 🇰🇭 🇨🇲 🇨🇦 🇮🇨 🇨🇻 🇧🇶 🇰🇾 🇨🇫 🇹🇩 🇨🇱 🇨🇳 🇨🇽 🇨🇨 🇨🇴 🇰🇲 🇨🇬 🇨🇩 🇨🇰 🇨🇷 🇨🇮 🇭🇷 🇨🇺 🇨🇼 🇨🇾 🇨🇿 🇩🇰 🇩🇯 🇩🇲 🇩🇴 🇪🇨 🇪🇬 🇸🇻 🇬🇶 🇪🇷 🇪🇪 🇪🇹 🇪🇺 🇫🇰 🇫🇴 🇫🇯 🇫🇮 🇫🇷 🇬🇫 🇵🇫 🇹🇫 🇬🇦 🇬🇲 🇬🇪 🇩🇪 🇬🇭 🇬🇮 🇬🇷 🇬🇱 🇬🇩 🇬🇵 🇬🇺 🇬🇹 🇬🇬 🇬🇳 🇬🇼 🇬🇾 🇭🇹 🇭🇳 🇭🇰 🇭🇺 🇮🇸 🇮🇳 🇮🇩 🇮🇷 🇮🇶 🇮🇪 🇮🇲 🇮🇱 🇮🇹 🇯🇲 🇯🇵 🎌 🇯🇪 🇯🇴 🇰🇿 🇰🇪 🇰🇮 🇽🇰 🇰🇼 🇰🇬 🇱🇦 🇱🇻 🇱🇧 🇱🇸 🇱🇷 🇱🇾 🇱🇮 🇱🇹 🇱🇺 🇲🇴 🇲🇰 🇲🇬 🇲🇼 🇲🇾 🇲🇻 🇲🇱 🇲🇹 🇲🇭 🇲🇶 🇲🇷 🇲🇺 🇾🇹 🇲🇽 🇫🇲 🇲🇩 🇲🇨 🇲🇳 🇲🇪 🇲🇸 🇲🇦 🇲🇿 🇲🇲 🇳🇦 🇳🇷 🇳🇵 🇳🇱 🇳🇨 🇳🇿 🇳🇮 🇳🇪 🇳🇬 🇳🇺 🇳🇫 🇰🇵 🇲🇵 🇳🇴 🇴🇲 🇵🇰 🇵🇼 🇵🇸 🇵🇦 🇵🇬 🇵🇾 🇵🇪 🇵🇭 🇵🇳 🇵🇱 🇵🇹 🇵🇷 🇶🇦 🇷🇪 🇷🇴 🇷🇺 🇷🇼 🇼🇸 🇸🇲 🇸🇦 🇸🇳 🇷🇸 🇸🇨 🇸🇱 🇸🇬 🇸🇽 🇸🇰 🇸🇮 🇬🇸 🇸🇧 🇸🇴 🇿🇦 🇰🇷 🇸🇸 🇪🇸 🇱🇰 🇧🇱 🇸🇭 🇰🇳 🇱🇨 🇵🇲 🇻🇨 🇸🇩 🇸🇷 🇸🇿 🇸🇪 🇨🇭 🇸🇾 🇹🇼 🇹🇯 🇹🇿 🇹🇭 🇹🇱 🇹🇬 🇹🇰 🇹🇴 🇹🇹 🇹🇳 🇹🇷 🇹🇲 🇹🇨 🇹🇻 🇻🇮 🇺🇬 🇺🇦 🇦🇪 🇬🇧 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🏴󠁧󠁢󠁷󠁬󠁳󠁿 🇺🇳 🇺🇸 🇺🇾 🇺🇿 🇻🇺 🇻🇦 🇻🇪 🇻🇳 🇼🇫 🇪🇭 🇾🇪 🇿🇲 🇿🇼</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+        <h3>OhEMOJI by L RMN. <br> &copy; <strong>2023</strong> All Rights Reserved.</h3>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+
+  <!-- ===================== JAVASCRIPT ===================== -->
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+  <!-- Swiper Js -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- GSAP -->
+  <script src="./js/gsap.min.js"></script>
+
+  <!-- Custom Scripts -->
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
